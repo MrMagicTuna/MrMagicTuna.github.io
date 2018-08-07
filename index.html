@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 0px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33%;
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.column img {
+    margin-top: -4px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 0px;
+}
+</style>
+<body>
+
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <a href="https://www.youtube.com/watch?v=mX5thUeYIIQ">
+    <img src="jtd.jpg" style="width:100%">
+    </a>
+  </div>
+  <div class="column">
+    <img src="midiplus.png" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="Java.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="ultrafit.png" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
